@@ -1,0 +1,76 @@
+body {
+  background-color: #CCFFCC;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  padding: 0 30px;
+  text-align: right;
+  width: 100%;
+  height: 100px;
+  background-color: #00CC66;
+}
+
+.header__logo {
+  padding-bottom: 10px;
+}
+
+.header__link {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.header__link:hover {
+  color: #fff;
+}
+
+.articles__link {
+  display: block;
+  border-radius: 20px;
+}
+
+.pagination-nav {
+  display: flex;
+}
+
+/* page.html */
+
+.card-body {
+  position: relative;
+}
+
+.card-body:after {
+  position: absolute;
+  content : url('penguin.png');
+  width : 30px;
+  height : 30px;
+  right : 34px;
+  bottom : 41px;
+}
+
+.card-title {
+  color : #009966;
+}
+
+.card-text {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.comments__name {
+  font-weight: 500;
+}
